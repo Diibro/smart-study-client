@@ -1,10 +1,49 @@
 {
      "header":{
           "home":"home",
-          "about_us": "About Us",
-          "feedback": "Feedback",
-          "contact": "Contact",
-          "login":"Login"
+          "login":"Login",
+          "navLinks":[
+               {
+                    "title":"Home",
+                    "link": "/"
+               },
+               {
+                    "title":"About Us",
+                    "link":"/about"
+               }, 
+               {
+                    "title": "Feedback",
+                    "link": "/feedback"
+               },
+               {
+                    "title": "Contact",
+                    "link":"/contact-page"
+               }
+          ]
+     },
+     "footer":{
+          "links":[
+               {
+                    "title":"Home",
+                    "link":"/"
+               },
+               {
+                    "title":"About Us",
+                    "link": "/about"
+               },
+               {
+                    "title":"Contact us",
+                    "link": "/contact"
+               }
+          ],
+          "contactLinks": {
+               "social": {
+                    "title": "Visit Us"
+               },
+               "others": {
+                    "title": "Others"
+               }
+          }
      },
      "home_page":{
           "hero_section":{
