@@ -35,6 +35,27 @@
                     "title": "Resources",
                     "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
                }
-          ]
+          ],
+          "testimonial_section":[
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
+               },
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
+               },
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
+               }
+          ],
+          "contact_section":{
+               "title":"Come And Join Us",
+               "contact_us": "Contact Us"
+          }
      }
 }
