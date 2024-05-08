@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root{
+     --main-blue: #14394F;
+     --main-black: #202020;
+     --bright-blue: #235AE7;
+     --main-white:#FFFFFF;
+     --main-red: #D71515;
+     --main-green: #47FF37;
+     --main-gray:#9A9A9A;
+     font-size: 18px;
+}
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Ubuntu Sans", sans-serif;
+}
+
+/* components */
+.main-header {
+     width: 80%;
+     margin: 0 auto 10px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     padding-block: 10px;
+}
+
+.main-header .logo-container {
+     width: 20%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+}
+
+.main-header .logo-container img {
+     width: 25%;
+     transition: ease 1s;
+}
+
+
+.main-header .logo-container img:hover{
+     transform: rotate(180deg);
+
+}
+
+.main-header .nav-bar {
+     width: 50%;
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+.main-header .nav-bar a {
+     font-size: 0.9rem;
+     text-decoration: none;
+     color: var(--bright-blue);
+     font-weight: 600;
+     transition: ease 0.4s;
+}
+
+.main-header .nav-bar a:hover{
+     font-weight: 700;
+     text-shadow: 0.5px 0.5px 0.5px var(--main-blue);
+}
+
+.main-header .contact-btn {
+     padding: 5px 20px;
+     background-color: var(--bright-blue);
+     color: var(--main-white);
+     text-decoration: none;
+     font-size: 0.95rem;
+     font-weight: 600;
+     border-radius: 20px;
+     border: 1.3px solid var(--bright-blue);
+     transition: ease 0.4s;
+}
+
+.main-header .contact-btn:hover {
+     color: var(--bright-blue);
+     background-color: var(--main-white);
+
+}
+
+.main-footer {
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 10px auto 0;
+}
+
+.main-footer .row {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     
+}
