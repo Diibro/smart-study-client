@@ -7,7 +7,7 @@
           "login":"Login"
      },
      "home_page":{
-          "heroSection":{
+          "hero_section":{
                "title": "Welcome to Smart Study",
                "message": "your ultimate destination for effective learning strategies  and academic success! At Smart Study, we understand that each learner is unique, which is why we offer personalized resources and innovative tools to optimize your study experience.",
                "read_more":"Let see"
@@ -56,6 +56,30 @@
           "contact_section":{
                "title":"Come And Join Us",
                "contact_us": "Contact Us"
+          }
+     },
+     "footer":{
+          "links":[
+               {
+                    "link":"Home",
+                    "url":"#"
+               },
+               {
+                    "link":"About Us",
+                    "url": "#"
+               },
+               {
+                    "link":"Contact us",
+                    "url": "#"
+               }
+          ],
+          "contactLinks": {
+               "social": {
+                    "title": "Visit Us"
+               },
+               "others": {
+                    "title": "Others"
+               }
           }
      }
 }
