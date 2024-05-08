@@ -1,5 +1,6 @@
 {
      "header":{
+          "logo":"#",
           "home":"home",
           "about_us": "About Us",
           "feedback": "Feedback",
@@ -10,7 +11,7 @@
           "heroSection":{
                "title": "Welcome to Smart Study",
                "message": "your ultimate destination for effective learning strategies  and academic success! At Smart Study, we understand that each learner is unique, which is why we offer personalized resources and innovative tools to optimize your study experience.",
-               "read_more":"Let see"
+               "read_more":"Read More"
           },
           "about_section":{
                "title": "How It Started",
@@ -57,5 +58,162 @@
                "title":"Come And Join Us",
                "contact_us": "Contact Us"
           }
+     },
+     "about_page": {
+          "about" : {
+               "title" : "About Smart Study",
+               "content": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless. The ability to easily assign tasks, track progress, and communicate within the platform has significantly increased our productivity and efficiency. Plus, the variety of features tailored specifically for eLearning needs, such as resource sharing and course integration, sets it apart from other task management tools. I can confidently say that this site has transformed the way we approach our eLearning projects, streamlining our workflow and allowing us to focus more on creating exceptional educational content. Highly recommended for anyone in the eLearning industry!"
+          },
+          "about_section":{
+               "title": "How It Started",
+               "main_title":"Our Dream is Global Learning Transformation",
+               "message": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+               "read_more":"Read More",
+               "years_experience":"Years Experience",
+               "project":"Project",
+               "postive_effects":"Positive Effects",
+               "students":"Students"
+          },
+          "services_section":[
+               {
+                    "title": "Task",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+               },
+               {
+                    "title":"Course",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+               },
+               {
+                    "title": "Resources",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+               }
+          ],
+          "testimonial_section":[
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
+               },
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
+               },
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
+               }
+          ],
+          "contact_section":{
+               "title":"Come And Join Us",
+               "contact_us": "Contact Us"
+          }
+     },
+     "Feedback_page" : {
+          "feedback_home":{
+               "title": "Feedback 202"
+
+          },
+          "feedback_section": [
+               {
+                    
+                    "image":"#",
+                    "testimony": "Well  This site have been good so far",
+                    "posted":"2 minutes ago"
+
+               },
+               {
+                    
+                    "image":"#",
+                    "testimony": "I have waited for this many years ago now it's conducting and taking the problem solving on another level" ,
+                    "posted" : "1 hours ago"
+
+
+               },
+               {
+                     
+                    "image":"#",
+                    "testimony": "I have waited for this many years ago now it's conducting and taking the problem solving on another level" ,
+                    "posted" : "2 hours ago"
+ 
+               }
+          ],
+          "replay_feedback":{
+               "feedback": "Message"
+          }
+          
+          
+               
+          
+     },
+
+     "contact_page":{
+          "contact": {
+               "title": "Let's get In touch"
+          },
+          "contacts": {
+               
+                    "call" :"+250700000",
+                    "email" : "smartstudy@gmail.com",
+                    "location" : "Kigali,Rwanda"
+               },
+          "form" : {
+               "email" :"Email",
+               "message":"Message"
+          },
+          "contact_button" :{
+
+               "button1": "Contact Us"
+          }
+          
+     },
+
+     
+     "signup_page":{
+          "signup":{
+               "title":"Smart Study",
+               "subtitle" :"Join other 1000+ Learners",
+               "continue": "Continue with Google",
+               "or" :"OR"
+
+          },
+          "form": {
+               "names":"Full Names",
+               "email": "Your Email",
+               "password": "Password",
+               "button" : "Sign me up"
+          },
+          "login_end" : {
+               "title": "Already have an Account?",
+               "signup" :"Login here" 
+          }
+
+     },
+
+     "Login_page":{
+          "login":{
+               "title":"Smart Study",
+               "subtitle" :"Join other 1000+ Learners",
+               "continue": "Continue with Google",
+               "or" :"OR"
+
+          },
+          "form": {
+               "email": "Your Email",
+               "password": "Password",
+               "button" : "Login"
+          },
+          "login_end" : {
+               "title": "Don't have an Account",
+               "signup" :"Sign up here" 
+          }
+
+     },
+     "user_dashboard":{
+          
      }
+
+
+     
 }
