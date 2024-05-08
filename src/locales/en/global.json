@@ -1,30 +1,16 @@
 {
      "header":{
-          "navLinks":[
-               {
-                    "title":"Home",
-                    "link": "/"
-               },
-               {
-                    "title":"About Us",
-                    "link":"/about"
-               }, 
-               {
-                    "title": "Feedback",
-                    "link": "/feedback"
-               },
-               {
-                    "title": "Contact",
-                    "link":"/contact-page"
-               }
-          ],
+          "home":"home",
+          "about_us": "About Us",
+          "feedback": "Feedback",
+          "contact": "Contact",
           "login":"Login"
      },
      "home_page":{
           "hero_section":{
                "title": "Welcome to Smart Study",
                "message": "your ultimate destination for effective learning strategies  and academic success! At Smart Study, we understand that each learner is unique, which is why we offer personalized resources and innovative tools to optimize your study experience.",
-               "read_more":"Let see"
+               "read_more":"Read More"
           },
           "about_section":{
                "title": "How It Started",
@@ -72,28 +58,55 @@
                "contact_us": "Contact Us"
           }
      },
-     "footer":{
-          "links":[
+     "about_page": {
+          "about" : {
+               "title" : "About Smart Study",
+               "content": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless. The ability to easily assign tasks, track progress, and communicate within the platform has significantly increased our productivity and efficiency. Plus, the variety of features tailored specifically for eLearning needs, such as resource sharing and course integration, sets it apart from other task management tools. I can confidently say that this site has transformed the way we approach our eLearning projects, streamlining our workflow and allowing us to focus more on creating exceptional educational content. Highly recommended for anyone in the eLearning industry!"
+          },
+          "about_section":{
+               "title": "How It Started",
+               "main_title":"Our Dream is Global Learning Transformation",
+               "message": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+               "read_more":"Read More",
+               "years_experience":"Years Experience",
+               "project":"Project",
+               "postive_effects":"Positive Effects",
+               "students":"Students"
+          },
+          "services_section":[
                {
-                    "title":"Home",
-                    "link":"/"
+                    "title": "Task",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
                },
                {
-                    "title":"About Us",
-                    "link": "/about"
+                    "title":"Course",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
                },
                {
-                    "title":"Contact us",
-                    "link": "/contact"
+                    "title": "Resources",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
                }
           ],
-          "contactLinks": {
-               "social": {
-                    "title": "Visit Us"
+          "testimonial_section":[
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
                },
-               "others": {
-                    "title": "Others"
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
+               },
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
                }
+          ],
+          "contact_section":{
+               "title":"Come And Join Us",
+               "contact_us": "Contact Us"
           }
      }
 }
