@@ -1,0 +1,40 @@
+{
+     "header":{
+          "home":"home",
+          "about_us": "About Us",
+          "feedback": "Feedback",
+          "contact": "Contact",
+          "login":"Login"
+     },
+     "home_page":{
+          "heroSection":{
+               "title": "Welcome to Smart Study",
+               "message": "your ultimate destination for effective learning strategies  and academic success! At Smart Study, we understand that each learner is unique, which is why we offer personalized resources and innovative tools to optimize your study experience.",
+               "read_more":"Read More"
+          },
+          "about_section":{
+               "title": "How It Started",
+               "main_title":"Our Dream is Global Learning Transformation",
+               "message": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+               "read_more":"Read More",
+               "years_experience":"Years Experience",
+               "project":"Project",
+               "postive_effects":"Positive Effects",
+               "students":"Students"
+          },
+          "services_section":[
+               {
+                    "title": "Task",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+               },
+               {
+                    "title":"Course",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+               },
+               {
+                    "title": "Resources",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+               }
+          ]
+     }
+}
