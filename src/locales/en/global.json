@@ -49,7 +49,9 @@
           "hero_section":{
                "title": "Welcome to Smart Study",
                "message": "your ultimate destination for effective learning strategies  and academic success! At Smart Study, we understand that each learner is unique, which is why we offer personalized resources and innovative tools to optimize your study experience.",
-               "read_more":"Read More"
+               "read_more":"Read More",
+               "front_images": ["",""],
+               "back_images":["",""]
           },
           "about_section":{
                "title": "How It Started",

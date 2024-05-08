@@ -1,0 +1,29 @@
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import IHeroSection from '../../interfaces/IHeroSection';
+import Button from '../buttons/Button';
+
+const HeroSection:React.FC = () => {
+     const {t} = useTranslation("global");
+     const content:IHeroSection = t("home_page.hero_section", {returnObjects:true});
+     console.log(content);
+     return (
+          <div className='hero-section'>
+               <div className="col">
+                    <h1>{content.title}</h1>
+                    <p>{content.message}</p>
+                    <Button title={content.read_more} link="/about" />
+               </div>
+               <div className="col">
+                    <div className="front-images">
+                         {
+                              // content.front_images.map((item, ))
+                         }
+                    </div>
+                    <div className="back-images"></div>
+               </div>
+          </div>
+     )
+}
+
+export default HeroSection

@@ -8,7 +8,7 @@ const Footer = () => {
      const navLinks:ILink[]  = t("footer.links",{returnObjects:true});
      return (
           <footer className="main-footer">
-               <div className="row">
+               <div className="row row-1">
                     <div className="col">
                          <img src={SSLogo} alt="smart study logo" />
                     </div>
@@ -22,7 +22,9 @@ const Footer = () => {
                          <div className="social-links"></div>
                     </div>
                </div>
-               <div className="row"></div>
+               <div className="row row-2">
+                    <p>Copyright &copy; all rights reserved 2024.</p>
+               </div>
           </footer>
      )
 }
