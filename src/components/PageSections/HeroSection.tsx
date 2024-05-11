@@ -6,21 +6,25 @@ import Button from '../buttons/Button';
 const HeroSection:React.FC = () => {
      const {t} = useTranslation("global");
      const content:IHeroSection = t("home_page.hero_section", {returnObjects:true});
-     console.log(content);
      return (
           <div className='hero-section'>
-               <div className="col">
+               <div className="col col-1">
                     <h1>{content.title}</h1>
                     <p>{content.message}</p>
                     <Button title={content.read_more} link="/about" />
                </div>
-               <div className="col">
-                    <div className="front-images">
+               <div className="col col-2">
+                    <div className="back-images">
                          {
-                              // content.front_images.map((item, ))
+                              content.back_images.map((item, index) => <img width={50} src={item} alt={"content image"} key={`front-image-${index}`} />)
                          }
                     </div>
-                    <div className="back-images"></div>
+                    <div className="front-images">
+                         {
+                              content.front_images.map((item, index) => <img width={100} src={item} alt={"content image"} key={`back-image-${index}`} />)
+                         }
+                    </div>
+                    
                </div>
           </div>
      )
