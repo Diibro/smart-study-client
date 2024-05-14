@@ -1,0 +1,49 @@
+@media only screen and  (max-width:600px){
+     .testimony-card, .service-card{
+          width: 90%;
+     }
+
+     body{
+          background: var(--main-white);
+     }
+
+     .main-footer .row .col {
+          width: 45%;
+     }
+
+     .main-footer .row .col:last-child{
+          width: 100%;
+     }
+
+     .main-footer .row .col .social-icons a{
+          width: 25%;
+     }
+
+     .contact-section .content {
+          width: 90%;
+     }
+
+     .contact-section .content .message h4{
+          font-size: 1.6rem;
+          font-weight: 700;
+          text-shadow: 0.5px 0.5px 5px var(--main-white);
+     }
+
+     .google-auth-button{
+          width: 80%;
+     }
+
+     .feedback-section{
+          width: 100%;
+     }
+
+     .main-header .nav-bar{
+          display: none;
+     }
+
+     .main-header .drop-down{
+          display: inline-flex;
+          justify-self: flex-end;
+     }
+
+}

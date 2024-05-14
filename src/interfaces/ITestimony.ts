@@ -3,6 +3,6 @@ export default interface ITestimony {
      testimony:string,
      school?: string,
      name?:string,
-     postedOn?:Date,
+     postedOn?:string,
      title?:string
 }

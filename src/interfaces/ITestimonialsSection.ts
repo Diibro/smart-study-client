@@ -2,5 +2,6 @@ import ITestimony from "./ITestimony";
 
 export default interface ITestimonialsSection {
      title?: string,
-     testimonies: ITestimony[]
+     testimonies: ITestimony[],
+     titleIcon?:string
 }

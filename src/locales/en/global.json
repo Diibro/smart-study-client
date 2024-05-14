@@ -189,5 +189,42 @@
                "title":"Come And Join Us",
                "contact_us": "Contact Us"
           }
+     },
+     "feedback_page": {
+          "testimonies-section":{
+               "title":"Feedback",
+               "count":202,
+               "titleIcon":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715416497/icons/Flag_knihv3.png",
+               "testimonies":[
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "name":"Hamato Durant",
+                         "postedOn":"2022-04-23",
+                         "title":"User-Friendly App Enhances Learning experience",
+                         "testimony": "I am very impressed with the ease of use of this app,  From intuitive navigation to speed checkout, everything makes my learning experience much more enjoyable"
+                    },
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "name":"Hamato Durant",
+                         "postedOn":"2022-04-23",
+                         "title":"User-Friendly App Enhances Learning experience",
+                         "testimony": "I am very impressed with the ease of use of this app,  From intuitive navigation to speed checkout, everything makes my learning experience much more enjoyable"
+                    },
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "name":"Hamato Durant",
+                         "postedOn":"2022-04-23",
+                         "title":"User-Friendly App Enhances Learning experience",
+                         "testimony": "I am very impressed with the ease of use of this app,  From intuitive navigation to speed checkout, everything makes my learning experience much more enjoyable"
+                    },
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "name":"Hamato Durant",
+                         "postedOn":"2022-04-23",
+                         "title":"User-Friendly App Enhances Learning experience",
+                         "testimony": "I am very impressed with the ease of use of this app,  From intuitive navigation to speed checkout, everything makes my learning experience much more enjoyable"
+                    }
+               ]
+          }
      }
 }

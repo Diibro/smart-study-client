@@ -5,8 +5,11 @@ import global_en from "./locales/en/global.json"
 import global_fr from "./locales/fr/global.json"
 import { BrowserRouter } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
-import Layout from './pages/Layout';
-import ErrorBoundary from './components/ErrorBoundary';
+import {Routes, Route} from "react-router-dom";
+import SignUp from './Authentication/pages/SignUp';
+import Login from './Authentication/pages/Login';
+import ErrorBoundary from './Error/ErrorBoundary';
+import Layout from './client/pages/Layout';
 
 i18next.init({
   interpolation: {escapeValue:false},
@@ -28,7 +31,11 @@ function App() {
     <ErrorBoundary>
       <BrowserRouter>
           <I18nextProvider i18n={i18next}>
-            <Layout/>
+            <Routes>
+              <Route path='/*' index  element={<Layout/>}/>
+              <Route path='/login' element={<Login />} />
+              <Route path='/sign-up' element={<SignUp />} />
+            </Routes>
           </I18nextProvider>
       </BrowserRouter>
     </ErrorBoundary>
