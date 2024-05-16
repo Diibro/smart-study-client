@@ -1,0 +1,230 @@
+{
+     "header":{
+          "home":"home",
+          "login":"Login",
+          "navLinks":[
+               {
+                    "title":"Home",
+                    "link": "/"
+               },
+               {
+                    "title":"About Us",
+                    "link":"/about"
+               }, 
+               {
+                    "title": "Feedback",
+                    "link": "/feedback"
+               },
+               {
+                    "title": "Contact",
+                    "link":"/contact-page"
+               }
+          ]
+     },
+     "footer":{
+          "links":[
+               {
+                    "title":"Home",
+                    "link":"/"
+               },
+               {
+                    "title":"About Us",
+                    "link": "/about"
+               },
+               {
+                    "title":"Contact us",
+                    "link": "/contact"
+               }
+          ],
+          "contactLinks": {
+               "social": {
+                    "title": "Visit Us"
+               },
+               "others": {
+                    "title": "Others"
+               }
+          }
+     },
+     "home_page":{
+          "hero_section":{
+               "title": "Welcome to Smart Study,",
+               "message": "your ultimate destination for effective learning strategies  and academic success! At Smart Study, we understand that each learner is unique, which is why we offer personalized resources and innovative tools to optimize your study experience.",
+               "read_more":"Read More",
+               "front_images": [
+                    "https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405530/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_12438_zt31wj.jpg",
+                    "https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405534/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_with_books_2_ybr3um.jpg"
+               ],
+               "back_images":[
+                    "https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405533/site-images/Firefly_smart_study_photos_of_books_and_pen_56166_g8iedo.jpg",
+                    "https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405534/site-images/Firefly_smart_study_young_african_person_managing_courses_and_tasks_on_a_website_on_his_own_time_wr_cawruy.jpg"
+               ]
+          },
+          "about_section":{
+               "title": "How It Started",
+               "main_title":"Our Dream is Global Learning Transformation",
+               "message": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+               "read_more": {
+                    "title": "Read More",
+                    "link": "/about"
+               },
+               "showCases": [
+                    {
+                         "count":3.5,
+                         "name":"Years Experience"
+                    },
+                    {
+                         "count":23,
+                         "name":"Projects"
+                    },
+                    {
+                         "count":220,
+                         "name":"Positive Effects"
+                    },
+                    {
+                         "count":1000,
+                         "name":"Students"
+                    }
+               ],
+               "image": "https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405529/site-images/Firefly_smart_study_young_african_person_managing_courses_and_tasks_on_a_website_on_his_own_time_wr_1_t8benx.jpg"
+          },
+          "services_section":{
+               "title": "Services",
+               "services":[
+
+                    {
+                         "icon":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715416496/icons/Task-List-Add--Streamline-Ultimate.png_u47qcm.png",
+                         "title": "Task Management",
+                         "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+                    },
+                    {
+                         "icon":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715416498/icons/icon__courses__v66xi9.png",
+                         "title":"Courses Management",
+                         "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+                    },
+                    {
+                         "icon":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715416498/icons/icon__resources__i41qdb.png",
+                         "title": "Resources Management",
+                         "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+                    }
+               ]
+          }
+          ,
+          "testimonial_section": {
+               "title": "Testimonials",
+               "testimonies":[
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                         "school": "Student At Adventist University Of Central Africa"
+                    },
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                         "school": "Student At Adventist University Of Central Africa"
+                    },
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                         "school": "Student At Adventist University Of Central Africa"
+                    }
+               ]
+          }
+          ,
+          "contact_section":{
+               "title":"Come And Join Us",
+               "contactButton": {
+                    "title":"Contact Us",
+                    "link":"/contact"
+               },
+               "backImage": "https://res.cloudinary.com/di8vcgxvp/image/upload/v1715439889/site-images/contact-image_tzdm17.png"
+          }
+     },
+     "about_page": {
+          "about" : {
+               "title" : "About Smart Study",
+               "content": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless. The ability to easily assign tasks, track progress, and communicate within the platform has significantly increased our productivity and efficiency. Plus, the variety of features tailored specifically for eLearning needs, such as resource sharing and course integration, sets it apart from other task management tools. I can confidently say that this site has transformed the way we approach our eLearning projects, streamlining our workflow and allowing us to focus more on creating exceptional educational content. Highly recommended for anyone in the eLearning industry!"
+          },
+          "about_section":{
+               "title": "How It Started",
+               "main_title":"Our Dream is Global Learning Transformation",
+               "message": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+               "read_more":"Read More",
+               "years_experience":"Years Experience",
+               "project":"Project",
+               "postive_effects":"Positive Effects",
+               "students":"Students"
+          },
+          "services_section":[
+               {
+                    "title": "Task",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+               },
+               {
+                    "title":"Course",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+               },
+               {
+                    "title": "Resources",
+                    "content":"Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless."
+               }
+          ],
+          "testimonial_section":[
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
+               },
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
+               },
+               {
+                    "image":"#",
+                    "testimony": "Discovering this eLearning task management site has been an absolute game-changer for me and my team. Not only does it provide a seamless platform for organizing our tasks, but its intuitive interface makes collaboration effortless.",
+                    "school": "Student At Adventist University Of Central Africa"
+               }
+          ],
+          "contact_section":{
+               "title":"Come And Join Us",
+               "contact_us": "Contact Us"
+          }
+     },
+     "feedback_page": {
+          "testimonies-section":{
+               "title":"Feedback",
+               "count":202,
+               "titleIcon":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715416497/icons/Flag_knihv3.png",
+               "testimonies":[
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "name":"Hamato Durant",
+                         "postedOn":"2022-04-23",
+                         "title":"User-Friendly App Enhances Learning experience",
+                         "testimony": "I am very impressed with the ease of use of this app,  From intuitive navigation to speed checkout, everything makes my learning experience much more enjoyable"
+                    },
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "name":"Hamato Durant",
+                         "postedOn":"2022-04-23",
+                         "title":"User-Friendly App Enhances Learning experience",
+                         "testimony": "I am very impressed with the ease of use of this app,  From intuitive navigation to speed checkout, everything makes my learning experience much more enjoyable"
+                    },
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "name":"Hamato Durant",
+                         "postedOn":"2022-04-23",
+                         "title":"User-Friendly App Enhances Learning experience",
+                         "testimony": "I am very impressed with the ease of use of this app,  From intuitive navigation to speed checkout, everything makes my learning experience much more enjoyable"
+                    },
+                    {
+                         "image":"https://res.cloudinary.com/di8vcgxvp/image/upload/v1715405527/site-images/Firefly_people_young_black_smiling_looking_at_the_camera_with_a_happy_success_expression_23370_1_yzbg85.jpg",
+                         "name":"Hamato Durant",
+                         "postedOn":"2022-04-23",
+                         "title":"User-Friendly App Enhances Learning experience",
+                         "testimony": "I am very impressed with the ease of use of this app,  From intuitive navigation to speed checkout, everything makes my learning experience much more enjoyable"
+                    }
+               ]
+          }
+     }
+}

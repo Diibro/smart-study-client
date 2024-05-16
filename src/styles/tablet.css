@@ -1,0 +1,101 @@
+@media only screen and  (max-width:768px) {
+     :root{
+          font-size: 20px;
+     }
+
+     body{
+          /* background-size: 100%; */
+          background-position: bottom left;
+     }
+     .main-header{
+          width: 95%;
+     }
+
+     .main-footer .row .col .social-icons a {
+          width: 45%;
+     }
+
+     .hero-section .col{
+          width: 90%;
+     }
+     .hero-section .col-2 .back-images{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+     }
+
+     .hero-section .col-2 .back-images img{
+          width: 45%;
+     }
+
+     .hero-section .col-2 .front-images{
+          display: none;
+     }
+
+     .about-section {
+          padding-inline: 10%;
+     }
+
+     .about-section .col{
+          width: 100%;
+     }
+
+     .services-section .row, .testimonial-section .row  {
+          flex-wrap: wrap;
+     }
+
+     .testimony-card, .service-card{
+          width: 45%;
+     }
+
+     .feedback-form {
+          width: 80%;
+     }
+
+     .contact-form{
+          flex-wrap: wrap;
+     }
+
+     .contact-form .col{
+          width: 100%;
+     }
+
+     .contact-form .col h2{
+          font-size: 1.3rem;
+     }
+
+     .contact-form .col .links a, .contact-form .col .form .group label {
+          font-size: 1.1rem;
+     }
+
+     .contact-form .col .form .group{
+          width: 60%;
+     }
+
+     .auth-page .col{
+          width: 100%;
+          background-color: var(--main-white);
+          align-items: center;
+          justify-content: center;
+          gap: 50px;
+     }
+
+     .auth-page .login-col, .auth-page .signup-col{
+          display: none;
+     }
+
+     .auth-container{
+          width: 90%;
+          gap: 20px;
+     }
+
+     .auth-container .account-message{
+          font-size: 1rem;
+     }
+
+     .main-header .logo-container img{
+          width: 60%;
+     }
+}
+
