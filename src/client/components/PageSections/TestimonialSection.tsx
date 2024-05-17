@@ -2,6 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import ITestimonialsSection from '../../interfaces/ITestimonialsSection';
 import TestimonyCard from '../cards/TestimonyCard';
+import ITestimony from '../../interfaces/ITestimony';
 
 const TestimonialSection:React.FC = () => {
      const {t} = useTranslation("global");
@@ -14,7 +15,7 @@ const TestimonialSection:React.FC = () => {
           </div>
           <div className="row row-2">
                {
-                    content.testimonies.map((item, index) => <TestimonyCard image={item.image} testimony={item.testimony} school={item.school} key={`testimony-${index}`} />)
+                    content.testimonies.map((item:ITestimony, index:number) => <TestimonyCard image={item.image} testimony={item.testimony} school={item.school} key={`testimony-${index}`} />)
                }
           </div>
      </section>

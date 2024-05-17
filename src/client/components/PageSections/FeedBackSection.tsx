@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import IFeedBackSection from '../../interfaces/IFeedBackSection';
 import FeedbackRow from '../cards/FeedbackRow';
 import FeedbackForm from '../forms/FeedbackForm';
+import ITestimony from '../../interfaces/ITestimony';
 
 const FeedBackSection:React.FC = () => {
      const {t} = useTranslation("global");
@@ -16,7 +17,7 @@ const FeedBackSection:React.FC = () => {
           </div>
           <div className="testimonies">
                {
-                    content.testimonies?.map((item, index) => 
+                    content.testimonies?.map((item:ITestimony, index:number) => 
                     <FeedbackRow 
                          key={`feed-back-page-feedback-${index}` } 
                          image={item.image}

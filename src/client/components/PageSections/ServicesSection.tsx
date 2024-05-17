@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next"
 import IServicesSection from "../../interfaces/IServicesSection";
 import React from "react";
 import ServiceCard from "../cards/ServiceCard";
+import IService from "../../interfaces/IService";
 
 const ServicesSection:React.FC = () => {
      const {t} = useTranslation("global");
@@ -13,7 +14,7 @@ const ServicesSection:React.FC = () => {
           </div>
           <div className="row row-2">
                {
-                    content.services.map((item,index )=> <ServiceCard title={item.title} icon={item.icon} content={item.content} key={`service-${item.title}-${index}`} />)
+                    content.services.map((item:IService,index:number )=> <ServiceCard title={item.title} icon={item.icon} content={item.content} key={`service-${item.title}-${index}`} />)
                }
           </div>
      </section>

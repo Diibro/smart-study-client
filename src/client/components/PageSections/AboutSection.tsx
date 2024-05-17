@@ -1,8 +1,9 @@
 import React from 'react'
-import IAboutSection from '../../interfaces/IAboutSection'
+import IAboutSection from '../../interfaces/IAboutSection';
 import { useTranslation } from 'react-i18next'
 import Button from '../buttons/Button';
 import ShowCaseCard from '../cards/ShowCaseCard';
+import IShowCase from '../../interfaces/IShowCase';
 
 const AboutSection:React.FC<IAboutSection> = ({page}) => {
      const {t} = useTranslation("global");
@@ -27,7 +28,7 @@ const AboutSection:React.FC<IAboutSection> = ({page}) => {
                <img width={200} src={content.image} alt="About section image" />
                <div className="row">
                     {
-                         content.showCases?.map((item, index) => <ShowCaseCard count={item.count} name={item.name} key={`showcase-${item.name}-${index}`} />)
+                         content.showCases?.map((item:IShowCase, index:number) => <ShowCaseCard count={item.count} name={item.name} key={`showcase-${item.name}-${index}`} />)
                     }
                </div>
           </div>

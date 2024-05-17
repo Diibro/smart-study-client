@@ -6,7 +6,7 @@ import InstagramIcon from "../../assets/svg/Instagram.svg";
 import TwitterIcon from "../../assets/svg/TwitterX.svg";
 import LinkedInIcon from "../../assets/svg/LinkedIn.svg";
 import WhatsappIcon from "../../assets/svg/WhatsApp.svg";
-import ILink from "../../interfaces/ILink";
+import ILink from "../interfaces/ILink";
 
 
 const Footer = () => {
@@ -19,7 +19,7 @@ const Footer = () => {
                          <img src={SSLogo} alt="smart study logo" />
                     </div>
                     <div className="col">
-                         {navLinks.map((item, index) => <Link key={`footer-link-${index}`} to={item.link}>{item.title}</Link>)}
+                         {navLinks.map((item:ILink, index:number) => <Link key={`footer-link-${index}`} to={item.link}>{item.title}</Link>)}
                     </div>
                     <div className="col">
                          <h3>{t("footer.contactLinks.social.title")}</h3>
