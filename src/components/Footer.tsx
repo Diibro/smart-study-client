@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
-import SSLogo from "../../assets/logo/ss-logo.png";
+import SSLogo from "../assets/logo/ss-logo.png";
 import { Link } from "react-router-dom";
 
-import InstagramIcon from "../../assets/svg/Instagram.svg";
-import TwitterIcon from "../../assets/svg/TwitterX.svg";
-import LinkedInIcon from "../../assets/svg/LinkedIn.svg";
-import WhatsappIcon from "../../assets/svg/WhatsApp.svg";
+import InstagramIcon from "../assets/svg/Instagram.svg";
+import TwitterIcon from "../assets/svg/TwitterX.svg";
+import LinkedInIcon from "../assets/svg/LinkedIn.svg";
+import WhatsappIcon from "../assets/svg/WhatsApp.svg";
 import ILink from "../interfaces/ILink";
 
 

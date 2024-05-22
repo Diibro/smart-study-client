@@ -9,7 +9,7 @@ import {Routes, Route} from "react-router-dom";
 import SignUp from './Authentication/pages/SignUp';
 import Login from './Authentication/pages/Login';
 import ErrorBoundary from './Error/ErrorBoundary';
-import Layout from './client/pages/Layout';
+import Layout from './pages/Layout';
 
 i18next.init({
   interpolation: {escapeValue:false},

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import IContactSection from '../../interfaces/IContactSection';
+import IContactSection from '../../../interfaces/IContactSection';
 import ContactButton from '../buttons/ContactButton';
 
 const ContactSection:React.FC = () => {

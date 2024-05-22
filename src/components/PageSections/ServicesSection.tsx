@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next"
-import IServicesSection from "../../interfaces/IServicesSection";
+import IServicesSection from "../../../interfaces/IServicesSection";
 import React from "react";
 import ServiceCard from "../cards/ServiceCard";
-import IService from "../../interfaces/IService";
+import IService from "../../../interfaces/IService";
 
 const ServicesSection:React.FC = () => {
      const {t} = useTranslation("global");

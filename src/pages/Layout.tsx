@@ -4,10 +4,10 @@ import Home from "./Home";
 import ErrorPage from "./ErrorPage";
 import { useEffect } from "react";
 import FeedBack from "./FeedBack";
-import ContactForm from "../components/forms/ContactForm";
+import About from "./About";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import About from "./About";
+import ContactForm from "../components/forms/ContactForm";
 
 const Layout = () => {
      const {pathname} = useLocation();

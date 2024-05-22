@@ -1,5 +1,5 @@
 import React from 'react'
-import IShowCase from '../../interfaces/IShowCase'
+import IShowCase from '../../../interfaces/IShowCase'
 
 const ShowCaseCard:React.FC<IShowCase> = ({count,name}) => {
   return (

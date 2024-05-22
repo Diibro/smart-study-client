@@ -1,5 +1,5 @@
 import React from 'react'
-import ITestimony from '../../interfaces/ITestimony'
+import ITestimony from '../../../interfaces/ITestimony'
 
 const TestimonyCard:React.FC<ITestimony> = ({image, testimony, school}) => {
      return (

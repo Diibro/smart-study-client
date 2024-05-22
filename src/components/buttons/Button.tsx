@@ -1,5 +1,5 @@
 import React from 'react'
-import IButton from '../../interfaces/IButton'
+import IButton from '../../../interfaces/IButton'
 import { useNavigate } from 'react-router-dom'
 
 const Button:React.FC<IButton> = ({title, link}) => {

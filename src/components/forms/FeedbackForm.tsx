@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SendIcon from "../../../assets/svg/send.svg"
+import SendIcon from "../../assets/svg/send.svg"
 
 const FeedbackForm:React.FC = () => {
      return (

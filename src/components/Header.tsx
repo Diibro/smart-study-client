@@ -1,10 +1,10 @@
 import React from 'react'
-import SSLog from "../../assets/logo/ss-logo.png";
+import SSLog from "../assets/logo/ss-logo.png";
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ILink from '../interfaces/ILink';
-import MenuIcon from "../../assets/svg/Menu.svg";
-import CrossIcon from "../../assets/svg/Close.svg";
+import MenuIcon from "../assets/svg/Menu.svg";
+import CrossIcon from "../assets/svg/Close.svg";
 
 const Header:React.FC = () => {
      const {t} = useTranslation("global");

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import PhoneIcon from '../../../assets/svg/Phone.svg';
-import EmailIcon from "../../../assets/svg/Email.svg";
-import LocationIcon from "../../../assets/svg/Location.svg"
+import PhoneIcon from '../../assets/svg/Phone.svg';
+import EmailIcon from "../../assets/svg/Email.svg";
+import LocationIcon from "../../assets/svg/Location.svg"
 
 const ContactForm:React.FC = () => {
      return (
