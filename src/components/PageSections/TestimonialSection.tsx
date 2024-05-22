@@ -1,8 +1,8 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import ITestimonialsSection from '../../../interfaces/ITestimonialsSection';
+import ITestimonialsSection from '../../interfaces/ITestimonialsSection';
 import TestimonyCard from '../cards/TestimonyCard';
-import ITestimony from '../../../interfaces/ITestimony';
+import ITestimony from '../../interfaces/ITestimony';
 
 const TestimonialSection:React.FC = () => {
      const {t} = useTranslation("global");

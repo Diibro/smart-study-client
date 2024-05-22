@@ -1,5 +1,5 @@
 import React from 'react'
-import ITestimony from '../../../interfaces/ITestimony'
+import ITestimony from '../../interfaces/ITestimony'
 
 const FeedbackRow:React.FC<ITestimony> = ({image,name,postedOn,testimony,title}) => {
      return (

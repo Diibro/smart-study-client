@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import IAboutHeroSection from '../../../interfaces/IAboutHeroSection';
+import IAboutHeroSection from '../../interfaces/IAboutHeroSection';
 
 const AboutHeroSection:React.FC = () => {
      const {t} = useTranslation("global");
