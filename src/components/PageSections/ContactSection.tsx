@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import IContactSection from '../../interfaces/IContactSection';
 import ContactButton from '../buttons/ContactButton';
+import IContactSection from '../../interfaces/client/IContactSection';
 
 const ContactSection:React.FC = () => {
      const {t} = useTranslation("global");

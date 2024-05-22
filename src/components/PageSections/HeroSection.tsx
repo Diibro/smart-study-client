@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import IHeroSection from '../../interfaces/IHeroSection';
+import IHeroSection from '../../interfaces/client/IHeroSection';
 import Button from '../buttons/Button';
 
 const HeroSection:React.FC = () => {

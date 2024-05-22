@@ -1,5 +1,5 @@
 import React, { useEffect, useState} from 'react'
-import IErrorBoundary from '../interfaces/IErrorBoundary';
+import IErrorBoundary from '../interfaces/client/IErrorBoundary';
 
 
 const ErrorBoundary:React.FC<IErrorBoundary> = ({children}) => {

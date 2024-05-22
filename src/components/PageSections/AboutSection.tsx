@@ -1,9 +1,9 @@
 import React from 'react'
-import IAboutSection from '../../interfaces/IAboutSection';
+import IAboutSection from '../../interfaces/client/IAboutSection';
 import { useTranslation } from 'react-i18next'
 import Button from '../buttons/Button';
 import ShowCaseCard from '../cards/ShowCaseCard';
-import IShowCase from '../../interfaces/IShowCase';
+import IShowCase from '../../interfaces/client/IShowCase';
 
 const AboutSection:React.FC<IAboutSection> = ({page}) => {
      const {t} = useTranslation("global");

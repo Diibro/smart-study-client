@@ -6,7 +6,7 @@ import InstagramIcon from "../assets/svg/Instagram.svg";
 import TwitterIcon from "../assets/svg/TwitterX.svg";
 import LinkedInIcon from "../assets/svg/LinkedIn.svg";
 import WhatsappIcon from "../assets/svg/WhatsApp.svg";
-import ILink from "../interfaces/ILink";
+import ILink from "../interfaces/client/ILink";
 
 
 const Footer = () => {
