@@ -10,6 +10,9 @@ import SignUp from './Authentication/pages/SignUp';
 import Login from './Authentication/pages/Login';
 import ErrorBoundary from './Error/ErrorBoundary';
 import Layout from './pages/Layout';
+import UserDashboard from './UserPages/UserDashboard';
+import NotificationContainer from './components/notification/NotificationContainer';
+import ActivateAccount from './Authentication/pages/ActivateAccount';
 
 i18next.init({
   interpolation: {escapeValue:false},
@@ -35,7 +38,11 @@ function App() {
               <Route path='/*' index  element={<Layout/>}/>
               <Route path='/login' element={<Login />} />
               <Route path='/sign-up' element={<SignUp />} />
+              <Route path='/activate' element={<ActivateAccount />} />
+              <Route path='/user/*' element={<UserDashboard />} />
             </Routes>
+            <NotificationContainer />
+            
           </I18nextProvider>
       </BrowserRouter>
     </ErrorBoundary>

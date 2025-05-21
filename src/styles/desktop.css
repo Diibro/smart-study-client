@@ -18,7 +18,7 @@ body{
      background-size: 60%;
      background-repeat: no-repeat;
      background-attachment: fixed;
-
+     z-index: -2;
 }
 
 *{
@@ -32,6 +32,7 @@ body{
      width: 100%;
      height: auto;
      min-height: 50vh;
+     z-index: 1;
 }
 
 .error-page{
@@ -588,7 +589,7 @@ body{
      padding-inline: 10px;
 }
 
-.auth-container .auth-form{
+.auth-container .auth-form, .dash-form{
      width: 80%;
      display: flex;
      flex-direction: column;
@@ -597,7 +598,7 @@ body{
      gap: 15px;
 }
 
-.auth-container .auth-form .group{
+.auth-container .auth-form .group, .dash-form .group{
      width: 80%;
      display: flex;
      flex-direction: column;
@@ -605,7 +606,7 @@ body{
      gap: 5px;
 }
 
-.auth-container .auth-form .group input{
+.auth-container .auth-form .group input, .dash-form .group input, .dash-form .group select{
      width: 100%;
      border-radius: 5px;
      border: 1.5px solid #bcbcbc;
@@ -613,19 +614,19 @@ body{
      transition: ease 0.7s;
 }
 
-.auth-container .auth-form .group input:focus{
+.auth-container .auth-form .group input:focus, .dash-form .group input:focus, .dash-form .group select:focus{
      border: 1px solid var(--main-blue);
      outline: none;
      box-shadow: 5px 5px var(--bright-blue);
 }
 
-.auth-container .auth-form .group label{
+.auth-container .auth-form .group label, .dash-form .group label{
      font-size: 0.9rem;
      font-weight: 600;
      color: var(--main-blue);
 }
 
-.auth-container .auth-form .group input[type="submit"]{
+.auth-container .auth-form .group input[type="submit"], .dash-form .group input[type="submit"]{
      background-color: var(--bright-blue);
      color: var(--main-white);
      border: 1.5px solid var(--bright-blue);
@@ -633,9 +634,43 @@ body{
      cursor: pointer;
 }
 
-.auth-container .auth-form .group input[type="submit"]:hover{
+.auth-container .auth-form .group input[type="submit"]:hover, .dash-form .group input[type="submit"]:hover{
      background-color: var(--main-white);
      color: var(--bright-blue);
+}
+
+.notification-container{
+     width: 400px;
+     background-color: var(--bright-blue);
+     border-radius: 10px;
+     position: absolute;
+     top: -150px;
+     left: 35%;
+     color: var(--main-white);
+     transition: ease 1s ;
+     font-size: 0.9rem;
+     padding: 10px;
+     display: flex;
+     z-index: 100;
+     text-align: center;
+     justify-content: center;
+}
+.move-notification-down{
+     top: 10px;
+}
+
+.move-notification-up{
+     top: -150px;
+}
+
+.fail-notification{
+     background-color: var(--main-red);
+     color: var(--main-white);
+}
+
+.pass-notification{
+     background-color: rgb(14, 96, 14);
+     color: var(--main-white);
 }
 /* end of components */
 
@@ -1112,3 +1147,211 @@ body{
      box-shadow: 5px 5px var(--bright-blue);
 
 }
+
+/* dashboard styles */
+
+.user-dashboard{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+     background-color: var(--main-white);
+}
+
+.dash-nav-bar{
+     width: 10%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content:space-evenly;
+     height: 95%;
+     box-shadow: 0.5px 0.5px 4px var(--main-gray);
+     border-radius: 20px;
+}
+
+.dash-nav-bar .nav-container{
+     width: 90%;
+     height: 60%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+.dash-nav-bar .nav-container a {
+     width: 95%;
+     color: var(--main-blue);
+     font-size: 0.9rem;
+     text-decoration: none;
+     cursor: pointer;
+     font-weight: 600;
+     transition: ease 0.4s;
+
+}
+
+.dash-nav-bar .nav-container a:hover{
+     color: var(--bright-blue);
+}
+.dashboard-content {
+     width: 85%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 95%;
+     box-shadow: 0.5px 0.5px 4px var(--main-gray);
+     border-radius: 20px;
+     overflow: hidden;
+     overflow-y: scroll;
+     padding: 10px;
+     scrollbar-width: none; /* Firefox */
+     -ms-overflow-style: none;
+}
+
+.dashboard-content::-webkit-scrollbar { 
+     display: none; /* WebKit */
+}
+
+.dash-board-row-container{
+     width: 95%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 10px;
+     padding: 10px 0;
+}
+
+.dash-board-col-container{
+     width: 95%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+}
+
+.entity-row{
+     width: 98%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.entity-row b {
+     font-size: 0.9rem;
+     font-weight: 600;
+
+}
+.entity-row span {
+     font-size: 0.8rem;
+     font-weight: 400;
+
+}
+
+.delete-button{
+     padding: 5px 20px;
+     background-color: #D71515;
+     color: var(--main-white);
+     border: 1.2px solid var(--main-red);
+     cursor: pointer;
+     transition: ease 0.5px;
+     font-size: 0.9rem;
+     font-weight: 600;
+     border-radius: 5px;
+     transition: ease 0.5s;
+}
+
+.delete-button:hover{
+     background-color: var(--main-white);
+     color: var(--main-red);
+}
+
+.add-button{
+     padding: 5px 20px;
+     background-color: var(--bright-blue);
+     color: var(--main-white);
+     border: 1.2px solid var(--bright-blue);
+     cursor: pointer;
+     transition: ease 0.5px;
+     font-size: 0.9rem;
+     font-weight: 600;
+     border-radius: 5px;
+     transition: ease 0.5s;
+}
+
+.add-button:hover{
+     background-color: var(--main-white);
+     color: var(--bright-blue);
+}
+
+.dash-forms{
+     width: 100%;
+     height: 100vh;
+     background-color: #14394f55;
+     display: none;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: fixed;
+     z-index: 99;
+     top: 0;
+     left: 0;
+     transition: ease 0.5s;
+}
+
+.dash-forms .form-container{
+     width: 40%;
+     background-color: var(--main-white);
+     border-radius: 20px;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.dash-forms .form-container .auth-form{
+     width: 95%;
+}
+
+.dash-forms .close-icon{
+     width: 50px;
+     height: 50px;
+     background-color: var(--bright-blue);
+     color: var(--main-white);
+     border: 1.2px solid var(--bright-blue);
+     transition: ease 0.5s;
+     cursor: pointer;
+     margin: 20px;
+     border-radius: 50%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     font-weight: 700;
+}
+
+
+.dash-forms .close-icon:hover{
+     background-color: var(--main-white);
+     color: var(--bright-blue);
+}
+
+.my-button{
+     padding: 10px 20px;
+     text-decoration: none;
+     color: white;
+     background-color: var(--bright-blue);
+     border-radius: 20px;
+     font-weight: 700;
+     transition: ease 1.2s;
+     border: 1.5px solid var(--bright-blue);
+}
+
+.my-button:hover{
+     background-color: var(--main-white);
+     color: var(--bright-blue);
+}
+/* end of dashboard styles */
